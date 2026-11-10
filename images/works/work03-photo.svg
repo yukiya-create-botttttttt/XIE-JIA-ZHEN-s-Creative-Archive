@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <!-- WORK 03: Narrative Photography (日常中的故事) -->
+  <rect width="800" height="520" rx="14" fill="#FAF5ED"/>
+  <rect x="25" y="25" width="750" height="470" rx="10" fill="#F3EAE0" stroke="#DFD1BF" stroke-width="2"/>
+
+  <!-- 拍立得照片三連拼貼 (Triptych Photo Collage) -->
+  <g transform="translate(130, 60)">
+    <!-- 照片 1 (左偏) -->
+    <g transform="translate(40, 20) rotate(-6)">
+      <rect width="140" height="170" fill="#FFFDF8" stroke="#DDD2C3" stroke-width="1.5" rx="3"/>
+      <rect x="12" y="12" width="116" height="116" fill="#4A3F35"/>
+      <circle cx="70" cy="70" r="25" fill="#E06D44" opacity="0.8"/>
+      <text x="70" y="152" font-family="'Courier New', monospace" font-size="9" fill="#998675" text-anchor="middle">SCENE A</text>
+    </g>
+
+    <!-- 照片 2 (中間正) -->
+    <g transform="translate(195, 10)">
+      <rect width="150" height="180" fill="#FFFDF8" stroke="#DDD2C3" stroke-width="1.5" rx="3"/>
+      <rect x="12" y="12" width="126" height="126" fill="#2B2521"/>
+      <!-- 光線幾何窗影 -->
+      <polygon points="25,125 125,25 135,45 45,135" fill="#E8A87C" opacity="0.6"/>
+      <text x="75" y="160" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#E06D44" text-anchor="middle">LIGHT & SHADOW</text>
+    </g>
+
+    <!-- 照片 3 (右偏) -->
+    <g transform="translate(365, 20) rotate(5)">
+      <rect width="140" height="170" fill="#FFFDF8" stroke="#DDD2C3" stroke-width="1.5" rx="3"/>
+      <rect x="12" y="12" width="116" height="116" fill="#3D352E"/>
+      <circle cx="70" cy="70" r="28" fill="#5F9EA0" opacity="0.7"/>
+      <text x="70" y="152" font-family="'Courier New', monospace" font-size="9" fill="#998675" text-anchor="middle">MOMENT C</text>
+    </g>
+  </g>
+
+  <!-- 印章徽章 -->
+  <g transform="translate(620, 50) rotate(8)">
+    <rect width="90" height="32" rx="4" fill="#5A4E44"/>
+    <text x="45" y="21" font-family="'Helvetica Neue', sans-serif" font-size="11" font-weight="bold" fill="#FFF" text-anchor="middle">WORK 03</text>
+  </g>
+
+  <!-- 提示框 -->
+  <g transform="translate(80, 360)">
+    <rect width="640" height="95" rx="8" fill="#FFFDF9" stroke="#E5D9CB" stroke-width="1.5"/>
+    <text x="320" y="32" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="bold" fill="#2B2521" text-anchor="middle">
+      [ 作品封面示意圖 PLACEHOLDER ]
+    </text>
+    <text x="320" y="58" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#75675A" text-anchor="middle">
+      日常中的故事｜敘事攝影系列組圖 / 街角光影連作
+    </text>
+    <text x="320" y="80" font-family="'Courier New', monospace" font-size="11" fill="#A89887" text-anchor="middle">
+      建議圖片路徑：images/works/work03-photo.png
+    </text>
+  </g>
+</svg>
+

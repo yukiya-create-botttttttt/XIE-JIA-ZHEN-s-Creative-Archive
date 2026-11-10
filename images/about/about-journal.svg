@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#2B2521" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- 畫布底層 -->
+  <rect width="800" height="600" rx="16" fill="#F8F3EB"/>
+
+  <!-- 裝飾底片條 (Film Strip) -->
+  <g transform="translate(60, 40) rotate(-4)" filter="url(#shadow)">
+    <rect width="680" height="130" rx="6" fill="#2B2521"/>
+    <!-- 底片齒孔 -->
+    <g fill="#FFF3E0">
+      <rect x="20" y="8" width="16" height="12" rx="2"/><rect x="50" y="8" width="16" height="12" rx="2"/><rect x="80" y="8" width="16" height="12" rx="2"/><rect x="110" y="8" width="16" height="12" rx="2"/><rect x="140" y="8" width="16" height="12" rx="2"/><rect x="170" y="8" width="16" height="12" rx="2"/><rect x="200" y="8" width="16" height="12" rx="2"/><rect x="230" y="8" width="16" height="12" rx="2"/><rect x="260" y="8" width="16" height="12" rx="2"/><rect x="290" y="8" width="16" height="12" rx="2"/><rect x="320" y="8" width="16" height="12" rx="2"/><rect x="350" y="8" width="16" height="12" rx="2"/><rect x="380" y="8" width="16" height="12" rx="2"/><rect x="410" y="8" width="16" height="12" rx="2"/><rect x="440" y="8" width="16" height="12" rx="2"/><rect x="470" y="8" width="16" height="12" rx="2"/><rect x="500" y="8" width="16" height="12" rx="2"/><rect x="530" y="8" width="16" height="12" rx="2"/><rect x="560" y="8" width="16" height="12" rx="2"/><rect x="590" y="8" width="16" height="12" rx="2"/><rect x="620" y="8" width="16" height="12" rx="2"/><rect x="650" y="8" width="16" height="12" rx="2"/>
+
+      <rect x="20" y="110" width="16" height="12" rx="2"/><rect x="50" y="110" width="16" height="12" rx="2"/><rect x="80" y="110" width="16" height="12" rx="2"/><rect x="110" y="110" width="16" height="12" rx="2"/><rect x="140" y="110" width="16" height="12" rx="2"/><rect x="170" y="110" width="16" height="12" rx="2"/><rect x="200" y="110" width="16" height="12" rx="2"/><rect x="230" y="110" width="16" height="12" rx="2"/><rect x="260" y="110" width="16" height="12" rx="2"/><rect x="290" y="110" width="16" height="12" rx="2"/><rect x="320" y="110" width="16" height="12" rx="2"/><rect x="350" y="110" width="16" height="12" rx="2"/><rect x="380" y="110" width="16" height="12" rx="2"/><rect x="410" y="110" width="16" height="12" rx="2"/><rect x="440" y="110" width="16" height="12" rx="2"/><rect x="470" y="110" width="16" height="12" rx="2"/><rect x="500" y="110" width="16" height="12" rx="2"/><rect x="530" y="110" width="16" height="12" rx="2"/><rect x="560" y="110" width="16" height="12" rx="2"/><rect x="590" y="110" width="16" height="12" rx="2"/><rect x="620" y="110" width="16" height="12" rx="2"/><rect x="650" y="110" width="16" height="12" rx="2"/>
+    </g>
+    <!-- 底片畫面格 -->
+    <rect x="35" y="26" width="140" height="78" rx="3" fill="#3D352E"/>
+    <rect x="195" y="26" width="140" height="78" rx="3" fill="#3D352E"/>
+    <rect x="355" y="26" width="140" height="78" rx="3" fill="#3D352E"/>
+    <rect x="515" y="26" width="130" height="78" rx="3" fill="#3D352E"/>
+
+    <text x="105" y="70" font-family="'Courier New', monospace" font-size="11" fill="#E8A87C" text-anchor="middle">FRAME #01</text>
+    <text x="265" y="70" font-family="'Courier New', monospace" font-size="11" fill="#E8A87C" text-anchor="middle">FRAME #02</text>
+    <text x="425" y="70" font-family="'Courier New', monospace" font-size="11" fill="#E8A87C" text-anchor="middle">FRAME #03</text>
+    <text x="580" y="70" font-family="'Courier New', monospace" font-size="11" fill="#E8A87C" text-anchor="middle">FRAME #04</text>
+  </g>
+
+  <!-- 手繪素描手札 (Sketchbook / Journal) -->
+  <g transform="translate(100, 200)" filter="url(#shadow)">
+    <rect width="600" height="340" rx="10" fill="#FFFDF9" stroke="#E0D6C8" stroke-width="2"/>
+    <line x1="300" y1="0" x2="300" y2="340" stroke="#EAE0D2" stroke-width="2" stroke-dasharray="4,4"/>
+
+    <!-- 左頁：手繪線條與素描象徵 -->
+    <g transform="translate(40, 30)">
+      <text x="0" y="20" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#E06D44">NOTEBOOK ENTRY // 01</text>
+      <line x1="0" y1="35" x2="220" y2="35" stroke="#E8DFD1" stroke-width="1.5"/>
+      <line x1="0" y1="65" x2="220" y2="65" stroke="#E8DFD1" stroke-width="1.5"/>
+      <line x1="0" y1="95" x2="220" y2="95" stroke="#E8DFD1" stroke-width="1.5"/>
+      <line x1="0" y1="125" x2="220" y2="125" stroke="#E8DFD1" stroke-width="1.5"/>
+      <line x1="0" y1="155" x2="220" y2="155" stroke="#E8DFD1" stroke-width="1.5"/>
+      <line x1="0" y1="185" x2="220" y2="185" stroke="#E8DFD1" stroke-width="1.5"/>
+      <line x1="0" y1="215" x2="220" y2="215" stroke="#E8DFD1" stroke-width="1.5"/>
+
+      <!-- 繪畫微插圖 -->
+      <circle cx="160" cy="140" r="35" fill="none" stroke="#2B2521" stroke-width="2" stroke-dasharray="6,4"/>
+      <path d="M 60 210 Q 110 130 160 170 T 210 120" fill="none" stroke="#E06D44" stroke-width="2.5"/>
+    </g>
+
+    <!-- 右頁：貼紙與拼貼說明 -->
+    <g transform="translate(340, 30)">
+      <rect width="220" height="150" rx="6" fill="#F4EDE2" stroke="#DDD2C2" stroke-width="1.5"/>
+      <!-- 紙膠帶 -->
+      <rect x="70" y="-10" width="80" height="22" rx="3" fill="#E8D5B5" opacity="0.9"/>
+      <text x="110" y="65" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="bold" fill="#2B2521" text-anchor="middle">
+        [ 學習歷程剪影 ]
+      </text>
+      <text x="110" y="90" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#75675A" text-anchor="middle">
+        PLACEHOLDER
+      </text>
+      <text x="110" y="115" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#998675" text-anchor="middle">
+        可放系所活動/工作桌日常
+      </text>
+
+      <!-- 圓形手繪貼紙 -->
+      <g transform="translate(130, 180) rotate(-8)">
+        <circle cx="35" cy="35" r="32" fill="#E06D44"/>
+        <text x="35" y="32" font-family="'Helvetica Neue', sans-serif" font-size="9" font-weight="bold" fill="#FFF" text-anchor="middle">STUDENT</text>
+        <text x="35" y="44" font-family="'Helvetica Neue', sans-serif" font-size="8" fill="#FFF" text-anchor="middle">CREATOR</text>
+      </g>
+    </g>
+  </g>
+</svg>
+

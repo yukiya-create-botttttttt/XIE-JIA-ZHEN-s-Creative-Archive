@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <!-- Digital Creation -->
+  <rect width="600" height="450" rx="14" fill="#FAF4EB"/>
+  <rect x="20" y="20" width="560" height="410" rx="10" fill="#F4ECE0" stroke="#E2D5C3" stroke-width="1.5"/>
+
+  <!-- 3D 空間線框與互動代碼幾何 -->
+  <g transform="translate(190, 75)">
+    <!-- 旋轉等角立方體 (Isometric Cube) -->
+    <g transform="translate(110, 105)">
+      <!-- 頂面 -->
+      <polygon points="0,-60 60,-30 0,0 -60,-30" fill="#FFFDF8" stroke="#2B2521" stroke-width="2.5"/>
+      <!-- 左面 -->
+      <polygon points="-60,-30 0,0 0,65 -60,35" fill="#E8DFD3" stroke="#2B2521" stroke-width="2.5"/>
+      <!-- 右面 -->
+      <polygon points="0,0 60,-30 60,35 0,65" fill="#E06D44" stroke="#2B2521" stroke-width="2.5"/>
+
+      <!-- 坐標軸線 -->
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#E06D44" stroke-width="2" stroke-dasharray="3,3"/>
+      <line x1="0" y1="0" x2="90" y2="45" stroke="#5F9EA0" stroke-width="2" stroke-dasharray="3,3"/>
+      <line x1="0" y1="0" x2="-90" y2="45" stroke="#F4D35E" stroke-width="2" stroke-dasharray="3,3"/>
+    </g>
+  </g>
+
+  <!-- 提示標籤 -->
+  <g transform="translate(50, 310)">
+    <rect width="500" height="85" rx="8" fill="#FFFDF9" stroke="#E8DFD3" stroke-width="1"/>
+    <text x="250" y="32" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="bold" fill="#2B2521" text-anchor="middle">
+      [ 3D 與數位互動示意圖 PLACEHOLDER ]
+    </text>
+    <text x="250" y="55" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#75675A" text-anchor="middle">
+      可放入 Blender 模型渲染圖、Unity 虛擬場景或網頁介面設計圖
+    </text>
+    <text x="250" y="73" font-family="'Courier New', monospace" font-size="10" fill="#A89887" text-anchor="middle">
+      PATH: images/interests/digital.png
+    </text>
+  </g>
+</svg>
+

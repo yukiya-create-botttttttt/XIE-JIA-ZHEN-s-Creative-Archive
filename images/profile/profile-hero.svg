@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 800" width="100%" height="100%">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E8DFD3" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="3" dy="5" stdDeviation="4" flood-color="#2B2521" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- 紙張底色與微網格 -->
+  <rect width="700" height="800" rx="20" fill="#FAF5ED"/>
+  <rect width="660" height="760" x="20" y="20" rx="16" fill="#F4ECE1" stroke="#E0D3C1" stroke-width="1.5"/>
+  <rect width="640" height="740" x="30" y="30" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- 紙膠帶裝飾 (Tape) -->
+  <rect x="250" y="8" width="200" height="36" rx="4" fill="#E8D5B5" opacity="0.85" transform="rotate(-1.5 350 26)"/>
+  <text x="350" y="31" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#7A6850" text-anchor="middle" letter-spacing="2">ARCHIVE // CREATOR</text>
+
+  <!-- 照片外框 (拍立得/雜誌底片風) -->
+  <g filter="url(#shadow)">
+    <rect x="75" y="80" width="550" height="600" rx="8" fill="#FFFDF9" stroke="#DDD2C3" stroke-width="1.5"/>
+    <rect x="100" y="105" width="500" height="490" fill="#EFE8DD"/>
+  </g>
+
+  <!-- 角色/創作者剪影手繪插畫象徵 -->
+  <circle cx="350" cy="270" r="105" fill="#E06D44" opacity="0.2"/>
+  <circle cx="350" cy="260" r="75" fill="#E06D44" opacity="0.85"/>
+  <!-- 畫具與帽子輪廓線 -->
+  <ellipse cx="350" cy="210" rx="85" ry="25" fill="#2B2521"/>
+  <ellipse cx="350" cy="195" rx="55" ry="30" fill="#2B2521"/>
+  <!-- 微笑面部剪影 -->
+  <circle cx="330" cy="265" r="5" fill="#FFF"/>
+  <circle cx="370" cy="265" r="5" fill="#FFF"/>
+  <path d="M 335 285 Q 350 300 365 285" fill="none" stroke="#FFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- 身體與調色盤/繪圖筆手繪線 -->
+  <path d="M 220 540 C 230 400, 470 400, 480 540 Z" fill="#2B2521"/>
+  <ellipse cx="440" cy="460" rx="45" ry="32" fill="#E8A87C" stroke="#2B2521" stroke-width="2"/>
+  <circle cx="430" cy="450" r="5" fill="#E06D44"/>
+  <circle cx="450" cy="450" r="5" fill="#F4D35E"/>
+  <circle cx="435" cy="470" r="5" fill="#5F9EA0"/>
+  <path d="M 460 410 L 410 470" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 印章郵戳裝飾 (Stamp) -->
+  <g transform="translate(480, 500) rotate(12)">
+    <circle cx="50" cy="50" r="46" fill="none" stroke="#E06D44" stroke-width="2" stroke-dasharray="4,2"/>
+    <circle cx="50" cy="50" r="40" fill="none" stroke="#E06D44" stroke-width="1"/>
+    <text x="50" y="44" font-family="'Helvetica Neue', sans-serif" font-size="9" font-weight="bold" fill="#E06D44" text-anchor="middle" letter-spacing="1">XIE-JIA-ZHEN</text>
+    <text x="50" y="58" font-family="'Helvetica Neue', sans-serif" font-size="8" fill="#E06D44" text-anchor="middle">CREATIVE</text>
+    <text x="50" y="70" font-family="'Helvetica Neue', sans-serif" font-size="7" fill="#E06D44" text-anchor="middle">★ ARCHIVE ★</text>
+  </g>
+
+  <!-- 提示標籤與說明 -->
+  <g transform="translate(110, 615)">
+    <rect width="480" height="45" rx="6" fill="#F7F1E6"/>
+    <text x="240" y="22" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="bold" fill="#2B2521" text-anchor="middle">
+      [ PLACEHOLDER 形象圖片示意 ]
+    </text>
+    <text x="240" y="38" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#75675A" text-anchor="middle">
+      可將您的個人照片或原創角色圖放置於 images/profile/profile-hero.png
+    </text>
+  </g>
+
+  <!-- 底部手寫風文字 -->
+  <text x="350" y="725" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#A89785" text-anchor="middle" letter-spacing="2">
+    FIG. 01 — THE CREATOR IN PROGRESS
+  </text>
+</svg>
+

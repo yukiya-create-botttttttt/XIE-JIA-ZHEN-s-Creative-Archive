@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <!-- WORK 04: Enchanted Museum (魔法博物館 - Unity 3D) -->
+  <rect width="800" height="520" rx="14" fill="#FAF5ED"/>
+  <rect x="25" y="25" width="750" height="470" rx="10" fill="#F3EAE0" stroke="#DFD1BF" stroke-width="2"/>
+
+  <!-- 3D 空間、博物館拱門與飄浮光球意象 -->
+  <g transform="translate(200, 50)">
+    <!-- 拱門建築深景 -->
+    <path d="M 40 220 L 40 100 Q 200 10 360 100 L 360 220 Z" fill="#2B2521"/>
+    <path d="M 80 220 L 80 120 Q 200 40 320 120 L 320 220 Z" fill="#3D352E"/>
+    <path d="M 120 220 L 120 140 Q 200 70 280 140 L 280 220 Z" fill="#5A4E44"/>
+
+    <!-- 展品漂浮光晶體 (Crystal) -->
+    <polygon points="200,90 225,130 200,170 175,130" fill="#E06D44"/>
+    <polygon points="200,90 225,130 200,170" fill="#F4A261" opacity="0.8"/>
+    <!-- 光芒粒子環繞 -->
+    <circle cx="200" cy="130" r="45" fill="none" stroke="#F4D35E" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <circle cx="160" cy="100" r="3" fill="#FFF"/>
+    <circle cx="240" cy="150" r="4" fill="#F4D35E"/>
+    <circle cx="230" cy="90" r="2.5" fill="#FFF"/>
+  </g>
+
+  <!-- 印章徽章 -->
+  <g transform="translate(620, 50) rotate(-10)">
+    <rect width="90" height="32" rx="4" fill="#E06D44"/>
+    <text x="45" y="21" font-family="'Helvetica Neue', sans-serif" font-size="11" font-weight="bold" fill="#FFF" text-anchor="middle">WORK 04</text>
+  </g>
+
+  <!-- 提示框 -->
+  <g transform="translate(80, 360)">
+    <rect width="640" height="95" rx="8" fill="#FFFDF9" stroke="#E5D9CB" stroke-width="1.5"/>
+    <text x="320" y="32" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="bold" fill="#2B2521" text-anchor="middle">
+      [ 作品封面示意圖 PLACEHOLDER ]
+    </text>
+    <text x="320" y="58" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#75675A" text-anchor="middle">
+      魔法博物館｜Unity 3D 虛擬展廳遊戲場景截圖 / 角色探索視角
+    </text>
+    <text x="320" y="80" font-family="'Courier New', monospace" font-size="11" fill="#A89887" text-anchor="middle">
+      建議圖片路徑：images/works/work04-museum.png
+    </text>
+  </g>
+</svg>
+

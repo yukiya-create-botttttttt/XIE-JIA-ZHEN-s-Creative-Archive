@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <!-- Animation & Storytelling -->
+  <rect width="600" height="450" rx="14" fill="#FAF4EB"/>
+  <rect x="20" y="20" width="560" height="410" rx="10" fill="#F4ECE0" stroke="#E2D5C3" stroke-width="1.5"/>
+
+  <!-- 動畫分鏡框與場記板 -->
+  <g transform="translate(160, 60)">
+    <!-- 場記板 (Clapperboard) -->
+    <rect x="30" y="50" width="220" height="150" rx="6" fill="#2B2521"/>
+    <!-- 斜條紋板頭 -->
+    <rect x="30" y="20" width="220" height="30" fill="#3D352E"/>
+    <polygon points="40,20 60,20 40,50 20,50" fill="#FFF"/>
+    <polygon points="90,20 110,20 90,50 70,50" fill="#FFF"/>
+    <polygon points="140,20 160,20 140,50 120,50" fill="#FFF"/>
+    <polygon points="190,20 210,20 190,50 170,50" fill="#FFF"/>
+
+    <text x="50" y="85" font-family="'Courier New', monospace" font-size="11" fill="#E8DFD3">SCENE: 01</text>
+    <text x="140" y="85" font-family="'Courier New', monospace" font-size="11" fill="#E8DFD3">TAKE: 03</text>
+    <text x="50" y="115" font-family="'Courier New', monospace" font-size="11" fill="#E06D44" font-weight="bold">STORYBOARD</text>
+
+    <!-- 播放按鈕 -->
+    <circle cx="140" cy="155" r="22" fill="#E06D44"/>
+    <polygon points="135,145 152,155 135,165" fill="#FFF"/>
+  </g>
+
+  <!-- 提示標籤 -->
+  <g transform="translate(50, 310)">
+    <rect width="500" height="85" rx="8" fill="#FFFDF9" stroke="#E8DFD3" stroke-width="1"/>
+    <text x="250" y="32" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="bold" fill="#2B2521" text-anchor="middle">
+      [ 動畫與分鏡示意圖 PLACEHOLDER ]
+    </text>
+    <text x="250" y="55" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#75675A" text-anchor="middle">
+      可放入分鏡表 (Storyboard) 截圖、角色動畫關鍵影格或短片截圖
+    </text>
+    <text x="250" y="73" font-family="'Courier New', monospace" font-size="10" fill="#A89887" text-anchor="middle">
+      PATH: images/interests/animation.png
+    </text>
+  </g>
+</svg>
+

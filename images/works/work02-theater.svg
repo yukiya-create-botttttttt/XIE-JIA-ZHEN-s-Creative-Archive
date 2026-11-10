@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <!-- WORK 02: All Beauty Theater (全美戲院動畫短片企劃) -->
+  <rect width="800" height="520" rx="14" fill="#FAF5ED"/>
+  <rect x="25" y="25" width="750" height="470" rx="10" fill="#F3EAE0" stroke="#DFD1BF" stroke-width="2"/>
+
+  <!-- 復古手繪看板與全美戲院建築意象 -->
+  <g transform="translate(180, 65)">
+    <!-- 戲院看板招牌框 -->
+    <rect x="0" y="20" width="440" height="190" rx="6" fill="#2B2521"/>
+    <rect x="15" y="35" width="410" height="160" rx="4" fill="#FFFDF8"/>
+    <!-- 看板頂部復古裝飾燈泡 -->
+    <circle cx="40" cy="20" r="5" fill="#E06D44"/>
+    <circle cx="120" cy="20" r="5" fill="#F4D35E"/>
+    <circle cx="220" cy="20" r="5" fill="#E06D44"/>
+    <circle cx="320" cy="20" r="5" fill="#F4D35E"/>
+    <circle cx="400" cy="20" r="5" fill="#E06D44"/>
+
+    <!-- 看板內文字與手繪筆觸 -->
+    <text x="220" y="85" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="900" fill="#2B2521" text-anchor="middle" letter-spacing="4">
+      全 美 戲 院
+    </text>
+    <text x="220" y="115" font-family="'Courier New', monospace" font-size="12" fill="#E06D44" font-weight="bold" text-anchor="middle" letter-spacing="2">
+      ALL BEAUTY THEATER // ANIMATION
+    </text>
+    <path d="M 60 145 Q 220 180 380 145" fill="none" stroke="#E8C39E" stroke-width="3" stroke-dasharray="6,4"/>
+  </g>
+
+  <!-- 印章徽章 -->
+  <g transform="translate(620, 50) rotate(-6)">
+    <rect width="90" height="32" rx="4" fill="#2B2521"/>
+    <text x="45" y="21" font-family="'Helvetica Neue', sans-serif" font-size="11" font-weight="bold" fill="#FFF" text-anchor="middle">WORK 02</text>
+  </g>
+
+  <!-- 提示框 -->
+  <g transform="translate(80, 360)">
+    <rect width="640" height="95" rx="8" fill="#FFFDF9" stroke="#E5D9CB" stroke-width="1.5"/>
+    <text x="320" y="32" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="bold" fill="#2B2521" text-anchor="middle">
+      [ 作品封面示意圖 PLACEHOLDER ]
+    </text>
+    <text x="320" y="58" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#75675A" text-anchor="middle">
+      全美戲院動畫短片企劃｜動畫主視覺海報 / 分鏡美術設定圖
+    </text>
+    <text x="320" y="80" font-family="'Courier New', monospace" font-size="11" fill="#A89887" text-anchor="middle">
+      建議圖片路徑：images/works/work02-theater.png
+    </text>
+  </g>
+</svg>
+
