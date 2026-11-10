@@ -1,12 +1,15 @@
 # XIE-JIA-ZHEN-s-Creative-Archive
 
+---
+網站連結：
+https://yukiya-create-botttttttt.github.io/XIE-JIA-ZHEN-s-Creative-Archive/
 
-
-
+---
 注意：
 本網站中的圖片有使用 AI 輔助生成部分圖片，其餘圖片來源皆來自本人的作品。
 
 
+---
 
 AI 協作紀錄與製作心得
 
