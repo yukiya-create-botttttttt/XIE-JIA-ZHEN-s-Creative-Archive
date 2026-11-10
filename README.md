@@ -1,24 +1,23 @@
 # XIE-JIA-ZHEN-s-Creative-Archive
-
 ---
-網站連結：
+# 網站連結：
 https://yukiya-create-botttttttt.github.io/XIE-JIA-ZHEN-s-Creative-Archive/
 
 ---
-注意：
+# 注意：
 本網站中的圖片有使用 AI 輔助生成部分圖片，其餘圖片來源皆來自本人的作品。
 
 
 ---
 
-AI 協作紀錄與製作心得
+# AI 協作紀錄與製作心得
 
-一、使用的 AI 及工具
+## 一、使用的 AI 及工具
 本次網站製作主要使用 ChatGPT 與 Google Antigravity IDE。
 ChatGPT： 協助整理個人資料、發想網站架構、規劃五大內容區塊、撰寫網站生成提示詞，以及提供視覺設計方向。
 Google Antigravity IDE： 協助生成 HTML、CSS、JavaScript 程式碼，建立網站架構與實作網頁互動功能。
 
-二、AI 協助的部分
+## 二、AI 協助的部分
 在網站製作初期，我先利用 ChatGPT 整理自己的個人背景、興趣、專長與過去的課堂作品，並依照老師要求的五大區塊規劃網站內容。
 接著，請 AI 根據我的創作方向，建議適合的網站名稱、配色、排版風格與視覺元素。
 在程式製作方面，我使用 Google Antigravity IDE 協助生成網站程式碼，包含 HTML 網頁架構、CSS 排版、RWD 響應式設計，以及 JavaScript 互動效果。
