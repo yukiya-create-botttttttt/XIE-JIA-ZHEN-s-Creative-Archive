@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XIE-JIA-ZHEN's Creative Archive｜創作途中 A Journey of Creativity</title>
+  <meta name="description" content="謝佳珍的個人多媒體動畫設計作品集，記錄插畫、動畫、攝影、3D與數位互動創作的學習歷程。">
+
+  <!-- Google Fonts 質感字體導入 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 外部 CSS 樣式表 (相對路徑) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ====================================================================
+       頂部導覽列 (Sticky Navigation Bar)
+       ==================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- 品牌標題 -->
+      <a href="#home" class="brand-link" aria-label="返回首頁">
+        <span class="brand-title">XIE-JIA-ZHEN's <span>Creative Archive</span></span>
+        <span class="brand-sub">創作途中｜A Journey of Creativity</span>
+      </a>
+
+      <!-- 電腦版導覽列與錨點連結 -->
+      <nav aria-label="主要導覽">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">01 首頁</a></li>
+          <li><a href="#about" class="nav-link">02 關於我</a></li>
+          <li><a href="#interests" class="nav-link">03 興趣與專長</a></li>
+          <li><a href="#works" class="nav-link">04 作品集</a></li>
+          <li><a href="#contact" class="nav-link">05 未來與聯絡</a></li>
+        </ul>
+      </nav>
+
+      <!-- 手機版漢堡選單開關按鈕 -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="展開選單" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ====================================================================
+       SECTION 01｜HOME 首頁
+       ==================================================================== -->
+  <section id="home" class="portfolio-section">
+    <div class="container">
+      <div class="hero-layout">
+
+        <!-- 左側文案資訊 -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-issue-tag">
+            <span>ISSUE // 01</span>
+            <span>✦</span>
+            <span>多媒體動畫學生作品集</span>
+          </div>
+
+          <h1 class="hero-main-title">
+            Hi, I'm <br>
+            <span class="highlight-name">XIE-JIA-ZHEN</span>.
+          </h1>
+
+          <div class="hero-slogan">
+            一個喜歡用畫面說故事的創作者。
+          </div>
+
+          <p class="hero-intro">
+            嗨！我是<strong>謝佳珍</strong>。喜歡繪畫、動畫與視覺設計，對不同媒材和創作形式充滿好奇。從插畫、影像到互動設計，不斷嘗試新的可能，並將日常觀察與想像轉化成自己的作品。
+          </p>
+
+          <div class="hero-actions">
+            <a href="#works" class="btn-primary">
+              <span>Explore My Works</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+            <a href="#about" class="btn-secondary">
+              A Little About Me
+            </a>
+          </div>
+        </div>
+
+        <!-- 右側雜誌風個人形象插畫拼貼 -->
+        <div class="hero-visual-frame reveal-on-scroll">
+          <div class="hero-art-card">
+            <!-- 紙膠帶裝飾 -->
+            <div class="tape-decor hero-tape-top">STUDENT ARCHIVE</div>
+
+            <!-- 漂浮貼紙 -->
+            <div class="sticker-badge sticker-1">🎨 MULTIMEDIA ART</div>
+            <div class="sticker-badge sticker-2">STORYTELLER ★</div>
+
+            <!-- 形象圖片容器 (支援替換為個人相片或自製角色圖片) -->
+            <div class="hero-img-wrapper">
+              <img src="images/profile/profile-hero.svg" alt="謝佳珍個人形象插畫" width="700" height="800">
+            </div>
+
+            <!-- 卡片底部手寫註記 -->
+            <div class="hero-art-caption">
+              <span>XIE-JIA-ZHEN (謝佳珍)</span>
+              <span>EST. 2026 // TAIPEI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 向下滾動提示 -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>SCROLL DOWN</span>
+        <div class="mouse-scroll"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====================================================================
+       SECTION 02｜ABOUT ME 關於我
+       ==================================================================== -->
+  <section id="about" class="portfolio-section about-section">
+    <div class="container">
+
+      <!-- 區塊標題 -->
+      <div class="section-title-wrap reveal-on-scroll">
+        <span class="section-badge">SECTION 02</span>
+        <h2 class="section-title">
+          關於我
+          <span class="section-title-en">A Little About Me</span>
+        </h2>
+      </div>
+
+      <div class="about-editorial-grid">
+
+        <!-- 左側：雜誌速寫日誌與底片條插圖 -->
+        <div class="about-visual-col reveal-on-scroll">
+          <div class="about-journal-card">
+            <div class="tape-decor about-tape">CREATIVE NOTES</div>
+            <div class="about-img-box">
+              <img src="images/about/about-journal.svg" alt="創作歷程與筆記拼貼" width="800" height="600">
+            </div>
+          </div>
+        </div>
+
+        <!-- 右側：自我介紹與四大個人特質 -->
+        <div class="about-content-col reveal-on-scroll">
+          <div class="about-story-text">
+            目前就讀多媒體動畫相關科系，是一位喜歡探索不同創作形式的設計學生。從繪畫與視覺創作出發，逐漸接觸動畫、影像製作、攝影、3D 建模與互動媒體。我喜歡透過故事、角色與視覺語言傳達想法，也享受嘗試不同媒材的過程。
+          </div>
+
+          <!-- 四大個人特質 -->
+          <h3 class="traits-headline">
+            <span>✦</span> 創作核心特質 (Creative Traits)
+          </h3>
+
+          <div class="traits-grid">
+            <!-- 特質 1 -->
+            <div class="trait-card">
+              <div class="trait-header">
+                <span class="trait-en">Imagination</span>
+                <span class="trait-title">富有想像力</span>
+              </div>
+              <p class="trait-desc">
+                喜歡發想故事、角色與不同的創作世界，讓腦中的點子轉化為有溫度的畫面。
+              </p>
+            </div>
+
+            <!-- 特質 2 -->
+            <div class="trait-card">
+              <div class="trait-header">
+                <span class="trait-en">Curiosity</span>
+                <span class="trait-title">喜歡探索</span>
+              </div>
+              <p class="trait-desc">
+                對新工具、新技術與不同藝術風格抱有好奇心，隨時保持海綿般的學習熱忱。
+              </p>
+            </div>
+
+            <!-- 特質 3 -->
+            <div class="trait-card">
+              <div class="trait-header">
+                <span class="trait-en">Observation</span>
+                <span class="trait-title">善於觀察</span>
+              </div>
+              <p class="trait-desc">
+                喜歡從日常生活、空間微光與人物互動中尋找靈感，捕捉那些容易被忽略的微小細節。
+              </p>
+            </div>
+
+            <!-- 特質 4 -->
+            <div class="trait-card">
+              <div class="trait-header">
+                <span class="trait-en">Experimentation</span>
+                <span class="trait-title">樂於嘗試</span>
+              </div>
+              <p class="trait-desc">
+                願意接觸不同媒材與表現手法，不怕犯錯，在實作與動手打樣中持續累積寶貴經驗。
+              </p>
+            </div>
+          </div>
+
+          <!-- 補充經歷卡片 -->
+          <div class="experience-block">
+            <span class="exp-tag">ORGANIZATION & LEADERSHIP</span>
+            <h4 class="exp-title">學生組織與活動企劃經驗</h4>
+            <p class="exp-desc">
+              曾參與系上學生組織與活動規劃，接觸活動企劃、文書整理、流程安排與團隊合作，培養出清晰的溝通協調力、應變能力與團隊執行意識。
+            </p>
+            <div class="exp-chips">
+              <span class="exp-chip">活動整體企劃</span>
+              <span class="exp-chip">跨組溝通協調</span>
+              <span class="exp-chip">時程節奏控管</span>
+              <span class="exp-chip">主視覺延伸物料</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ====================================================================
+       SECTION 03｜INTERESTS & SKILLS 興趣與專長
+       ==================================================================== -->
+  <section id="interests" class="portfolio-section">
+    <div class="container">
+
+      <!-- 區塊標題 -->
+      <div class="section-title-wrap reveal-on-scroll">
+        <span class="section-badge">SECTION 03</span>
+        <h2 class="section-title">
+          興趣與創作專長
+          <span class="section-title-en">Things I Love to Create</span>
+        </h2>
+        <p class="section-desc">
+          探索多元創作可能——從手繪插畫的溫暖筆觸，到數位 3D 與網頁互動的無限想像。
+        </p>
+      </div>
+
+      <!-- 四個具有獨立視覺圖片的興趣分類卡片 -->
+      <div class="interests-grid">
+
+        <!-- 興趣 1: 插畫與繪畫 -->
+        <div class="interest-card reveal-on-scroll">
+          <div class="interest-img-box">
+            <span class="interest-num-badge">INTEREST 01</span>
+            <img src="images/interests/illustration.svg" alt="插畫與繪畫" width="600" height="450">
+          </div>
+          <div class="interest-body">
+            <div class="interest-en-title">Illustration & Drawing</div>
+            <h3 class="interest-title">插畫與繪畫</h3>
+            <p class="interest-desc">
+              喜歡角色設計、人體繪畫、構圖練習與不同藝術風格。習慣隨身攜帶速寫本記錄生活，並運用數位繪圖板將草稿發展為色彩豐富的插畫創作。
+            </p>
+          </div>
+        </div>
+
+        <!-- 興趣 2: 動畫與故事 -->
+        <div class="interest-card reveal-on-scroll">
+          <div class="interest-img-box">
+            <span class="interest-num-badge">INTEREST 02</span>
+            <img src="images/interests/animation.svg" alt="動畫與故事" width="600" height="450">
+          </div>
+          <div class="interest-body">
+            <div class="interest-en-title">Animation & Storytelling</div>
+            <h3 class="interest-title">動畫與故事</h3>
+            <p class="interest-desc">
+              對動畫製作、分鏡、角色塑造及故事敘事有深厚興趣。享受設計時間軸上每秒 24 格的動態節奏，透過連貫的鏡頭畫面傳遞真摯情感。
+            </p>
+          </div>
+        </div>
+
+        <!-- 興趣 3: 攝影與影像 -->
+        <div class="interest-card reveal-on-scroll">
+          <div class="interest-img-box">
+            <span class="interest-num-badge">INTEREST 03</span>
+            <img src="images/interests/photography.svg" alt="攝影與影像" width="600" height="450">
+          </div>
+          <div class="interest-body">
+            <div class="interest-en-title">Photography & Visuals</div>
+            <h3 class="interest-title">攝影與影像</h3>
+            <p class="interest-desc">
+              喜歡透過鏡頭觀察生活，探索構圖、光線與影像表現。透過抓拍街頭角落與自然光影，從寫實素材中提煉出具有故事氛圍的視覺畫面。
+            </p>
+          </div>
+        </div>
+
+        <!-- 興趣 4: 數位創作 -->
+        <div class="interest-card reveal-on-scroll">
+          <div class="interest-img-box">
+            <span class="interest-num-badge">INTEREST 04</span>
+            <img src="images/interests/digital.svg" alt="數位創作" width="600" height="450">
+          </div>
+          <div class="interest-body">
+            <div class="interest-en-title">Digital Creation</div>
+            <h3 class="interest-title">數位創作</h3>
+            <p class="interest-desc">
+              對 3D 建模、VR、互動設計與網頁視覺設計抱有濃厚興趣。樂於嘗試新興數位媒介，將靜態設計延伸至立體空間與可點擊互動的全新體驗。
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 創作工具庫 (以簡潔標籤呈現，無虛構熟練度百分比) -->
+      <div class="tools-panel reveal-on-scroll">
+        <div class="tools-header">
+          <h3 class="tools-title">接觸過的創作工具 (Creative Tools)</h3>
+          <span class="tools-note">持續學習與多方嘗試中的軟體工具庫</span>
+        </div>
+
+        <div class="tools-grid">
+          <!-- Photoshop -->
+          <div class="tool-tag-card">
+            <div class="tool-icon-circle">🎨</div>
+            <div class="tool-info">
+              <strong>Adobe Photoshop</strong>
+              <small>電繪插畫・影像合成</small>
+            </div>
+          </div>
+
+          <!-- After Effects -->
+          <div class="tool-tag-card">
+            <div class="tool-icon-circle">🎬</div>
+            <div class="tool-info">
+              <strong>Adobe After Effects</strong>
+              <small>動態幾何・動畫後製</small>
+            </div>
+          </div>
+
+          <!-- Premiere Pro -->
+          <div class="tool-tag-card">
+            <div class="tool-icon-circle">✂️</div>
+            <div class="tool-info">
+              <strong>Adobe Premiere Pro</strong>
+              <small>影音剪輯・節奏調控</small>
+            </div>
+          </div>
+
+          <!-- Blender -->
+          <div class="tool-tag-card">
+            <div class="tool-icon-circle">🧊</div>
+            <div class="tool-info">
+              <strong>Blender</strong>
+              <small>3D 建模・燈光材質</small>
+            </div>
+          </div>
+
+          <!-- Unity -->
+          <div class="tool-tag-card">
+            <div class="tool-icon-circle">🎮</div>
+            <div class="tool-info">
+              <strong>Unity</strong>
+              <small>虛擬場景・互動整合</small>
+            </div>
+          </div>
+
+          <!-- HTML / CSS -->
+          <div class="tool-tag-card">
+            <div class="tool-icon-circle">💻</div>
+            <div class="tool-info">
+              <strong>HTML / CSS</strong>
+              <small>網頁結構・響應式切版</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ====================================================================
+       SECTION 04｜SELECTED WORKS 學習成果與作品集
+       ==================================================================== -->
+  <section id="works" class="portfolio-section works-section">
+    <div class="container">
+
+      <!-- 區塊標題 -->
+      <div class="section-title-wrap reveal-on-scroll">
+        <span class="section-badge">SECTION 04</span>
+        <h2 class="section-title">
+          學習成果與作品集
+          <span class="section-title-en">A Collection of My Works</span>
+        </h2>
+        <p class="section-desc">
+          記錄不同創作階段的探索與實踐成果。點擊作品卡片或封面圖片，可開啟彈窗查看完整的製作背景、學習心得與作品詳情。
+        </p>
+      </div>
+
+      <!-- 五大作品大面積展示清單 -->
+      <div class="works-list">
+
+        <!-- WORK 01: AI & Future Technology -->
+        <article class="work-card reveal-on-scroll">
+          <div class="work-cover-wrapper" data-work-key="work-01">
+            <img src="images/works/work01-ai-book.svg" alt="AI 與未來科技繪本" class="work-cover-img" width="800" height="520">
+            <div class="work-cover-overlay">
+              <span class="view-badge">點擊展開詳細解說 ↗</span>
+            </div>
+          </div>
+          <div class="work-details-wrapper">
+            <div class="work-header-meta">
+              <span class="work-index">WORK 01</span>
+              <span class="work-category-badge">角色設計・繪本企劃</span>
+            </div>
+            <div class="work-en-title">AI & Future Technology</div>
+            <h3 class="work-main-title">AI 與未來科技繪本</h3>
+            <p class="work-summary">
+              以人工智慧與人類的關係為主題，透過人形 AI 角色與故事設計，探索未來科技與人類情感之間的連結。透過溫暖的繪本語言拉近科技與人的距離。
+            </p>
+            <div class="work-tools-list">
+              <span class="tool-pill">Photoshop</span>
+              <span class="tool-pill">Illustrator</span>
+              <span class="tool-pill">Procreate</span>
+            </div>
+            <button class="work-card-btn" data-work-key="work-01">
+              查看製作目的與心得 &rarr;
+            </button>
+          </div>
+        </article>
+
+        <!-- WORK 02: All Beauty Theater -->
+        <article class="work-card reveal-on-scroll">
+          <div class="work-cover-wrapper" data-work-key="work-02">
+            <img src="images/works/work02-theater.svg" alt="全美戲院動畫短片企劃" class="work-cover-img" width="800" height="520">
+            <div class="work-cover-overlay">
+              <span class="view-badge">點擊展開詳細解說 ↗</span>
+            </div>
+          </div>
+          <div class="work-details-wrapper">
+            <div class="work-header-meta">
+              <span class="work-index">WORK 02</span>
+              <span class="work-category-badge">動畫・影像敘事</span>
+            </div>
+            <div class="work-en-title">All Beauty Theater</div>
+            <h3 class="work-main-title">全美戲院動畫短片企劃</h3>
+            <p class="work-summary">
+              以台南全美戲院為背景，透過祖孫回憶、手繪電影看板與時代變遷，呈現傳統手繪藝術的價值。傳遞職人手作溫度在數位時代的歷史美感。
+            </p>
+            <div class="work-tools-list">
+              <span class="tool-pill">After Effects</span>
+              <span class="tool-pill">Premiere Pro</span>
+              <span class="tool-pill">Photoshop</span>
+            </div>
+            <button class="work-card-btn" data-work-key="work-02">
+              查看製作目的與心得 &rarr;
+            </button>
+          </div>
+        </article>
+
+        <!-- WORK 03: Narrative Photography -->
+        <article class="work-card reveal-on-scroll">
+          <div class="work-cover-wrapper" data-work-key="work-03">
+            <img src="images/works/work03.png" alt="日常中的故事" class="work-cover-img" width="800" height="520">
+            <div class="work-cover-overlay">
+              <span class="view-badge">點擊展開詳細解說 ↗</span>
+            </div>
+          </div>
+          <div class="work-details-wrapper">
+            <div class="work-header-meta">
+              <span class="work-index">WORK 03</span>
+              <span class="work-category-badge">敘事攝影</span>
+            </div>
+            <div class="work-en-title">Narrative Photography</div>
+            <h3 class="work-main-title">日常中的故事</h3>
+            <p class="work-summary">
+              從日常照片出發，觀察畫面中的人物、物件與空間，透過不同照片的編排發展故事。在光影晃動與生活碎片中發現詩意。
+            </p>
+            <div class="work-tools-list">
+              <span class="tool-pill">數位相機 (Fujifilm)</span>
+              <span class="tool-pill">Lightroom</span>
+              <span class="tool-pill">Photoshop</span>
+            </div>
+            <button class="work-card-btn" data-work-key="work-03">
+              查看製作目的與心得 &rarr;
+            </button>
+          </div>
+        </article>
+
+        <!-- WORK 04: Enchanted Museum -->
+        <article class="work-card reveal-on-scroll">
+          <div class="work-cover-wrapper" data-work-key="work-04">
+            <img src="images/works/work04-museum.png" alt="魔法博物館" class="work-cover-img" width="800" height="520">
+            <div class="work-cover-overlay">
+              <span class="view-badge">🎬 觀看 3D 展廳展示影片與心得 ↗</span>
+            </div>
+          </div>
+          <div class="work-details-wrapper">
+            <div class="work-header-meta">
+              <span class="work-index">WORK 04</span>
+              <span class="work-category-badge">Unity・3D 互動場景</span>
+              <span class="work-category-badge"
+                style="background: var(--color-orange-soft); color: var(--color-orange); font-weight: 700;">🎬
+                內含展示影片</span>
+            </div>
+            <div class="work-en-title">Enchanted Museum</div>
+            <h3 class="work-main-title">魔法博物館</h3>
+            <p class="work-summary">
+              以魔法博物館為概念，運用 Unity 建構虛擬探索空間，結合場景設計、角色移動與動畫。讓參觀者化身探險者，在光影與謎題中沈浸體驗。
+            </p>
+            <div class="work-tools-list">
+              <span class="tool-pill">Unity 3D</span>
+              <span class="tool-pill">Blender</span>
+              <span class="tool-pill">C# Scripting</span>
+            </div>
+            <button class="work-card-btn" data-work-key="work-04">
+              觀看展示影片與製作心得 &rarr;
+            </button>
+          </div>
+        </article>
+
+        <!-- WORK 05: Tainan Beef Soup Website -->
+        <article class="work-card reveal-on-scroll">
+          <div class="work-cover-wrapper" data-work-key="work-05">
+            <img src="images/works/work05.png" alt="台南牛肉湯推廣網站" class="work-cover-img" width="800" height="520">
+            <div class="work-cover-overlay">
+              <span class="view-badge">點擊展開詳細解說 ↗</span>
+            </div>
+          </div>
+          <div class="work-details-wrapper">
+            <div class="work-header-meta">
+              <span class="work-index">WORK 05</span>
+              <span class="work-category-badge">網頁設計・視覺設計</span>
+            </div>
+            <div class="work-en-title">Tainan Beef Soup Website</div>
+            <h3 class="work-main-title">台南牛肉湯推廣網站</h3>
+            <p class="work-summary">
+              以台南牛肉湯文化與路跑活動為主題，規劃網站主視覺及延伸宣傳設計。結合在地美食文化與運動健康風潮，打造清晰生動的線上資訊體驗。
+            </p>
+            <div class="work-tools-list">
+              <span class="tool-pill">HTML5 / CSS3</span>
+              <span class="tool-pill">JavaScript</span>
+              <span class="tool-pill">Figma UI 設計</span>
+            </div>
+            <div class="work-actions-row">
+              <button class="work-card-btn" data-work-key="work-05">
+                查看製作目的與心得 &rarr;
+              </button>
+              <a href="https://readdy.cc/preview/84267087-00f4-49ea-9cd8-51de15a2c6ef/11259928/event-checkin"
+                target="_blank" rel="noopener noreferrer" class="work-link-btn" title="在新分頁開啟作品網站">
+                <span>前往作品網站</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ====================================================================
+       SECTION 05｜FUTURE & CONTACT 未來規劃與聯絡我
+       ==================================================================== -->
+  <section id="contact" class="portfolio-section">
+    <div class="container">
+
+      <!-- 區塊標題 -->
+      <div class="section-title-wrap reveal-on-scroll">
+        <span class="section-badge">SECTION 05</span>
+        <h2 class="section-title">
+          未來規劃與聯絡我
+          <span class="section-title-en">What's Next?</span>
+        </h2>
+        <p class="section-desc">
+          創作是一場沒有終點的旅程。持續在畫筆、鏡頭與代碼之間，探索表達的新可能。
+        </p>
+      </div>
+
+      <!-- 未來方向與近期目標 -->
+      <div class="future-layout reveal-on-scroll">
+        <!-- 未來方向 -->
+        <div class="future-vision-card">
+          <h3 class="vision-title">
+            <span>🧭</span> 未來創作方向
+          </h3>
+          <p class="vision-text">
+            希望未來能持續累積視覺設計與數位創作能力，探索插畫、動畫、影像與互動媒體之間的結合，逐漸找到最適合自己的創作方向。期待創作出能觸動人心、引起共鳴的好故事。
+          </p>
+        </div>
+
+        <!-- 近期目標卡片清單 -->
+        <div class="goals-list">
+          <div class="goal-item">
+            <span class="goal-index">01</span>
+            <div class="goal-text">持續練習人體、構圖與角色設計，扎實繪畫基本功。</div>
+          </div>
+          <div class="goal-item">
+            <span class="goal-index">02</span>
+            <div class="goal-text">加強動畫分鏡節奏與動態影像敘事能力。</div>
+          </div>
+          <div class="goal-item">
+            <span class="goal-index">03</span>
+            <div class="goal-text">深入學習 Blender 3D 建模與 Unity 互動開發工具。</div>
+          </div>
+          <div class="goal-item">
+            <span class="goal-index">04</span>
+            <div class="goal-text">完成更多個人創作企劃，逐步建立自己的完整作品集。</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 結尾標語橫幅 -->
+      <div class="ending-slogan-banner reveal-on-scroll">
+        <div class="slogan-en">Still learning, still creating.</div>
+        <div class="slogan-zh">每一次嘗試，都是下一個作品的開始。</div>
+      </div>
+
+      <!-- 聯絡資訊與示範表單 -->
+      <div class="contact-grid reveal-on-scroll">
+
+        <!-- 左側：真實聯絡管道預留區 -->
+        <div class="contact-info-card">
+          <h3 class="contact-card-title">Say Hello! 歡迎交流與合作</h3>
+          <p class="contact-card-desc">
+            無論是創作交流、課業指教或未來合作機會，都非常歡迎隨時與我聯絡！
+          </p>
+
+          <div class="contact-items">
+            <!-- Email -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <strong>電子郵件 (Email)</strong>
+                <!-- 預留位置，未隨意捏造私人資料 -->
+                <p style="color: var(--color-text-muted); font-family: var(--font-mono); font-size: 0.9rem;">
+                  your-email@example.com (預留聯絡信箱)
+                </p>
+              </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div>
+                <strong>Instagram / 創作帳號</strong>
+                <p style="color: var(--color-text-muted); font-family: var(--font-mono); font-size: 0.9rem;">
+                  @your_creative_handle (預留社群帳號)
+                </p>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <strong>所在地點</strong>
+                <p style="color: var(--color-text-muted); font-size: 0.9rem;">
+                  台灣・台北 / 多媒體動畫學系
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右側：示範聯絡表單 (無後端寄送功能，純前端互動) -->
+        <div class="contact-form-panel">
+          <span class="form-demo-badge">※ 示範表單，無後端寄送功能</span>
+
+          <form id="demo-contact-form">
+            <div class="form-group">
+              <label for="sender-name" class="form-label">您的稱呼 (Name)</label>
+              <input type="text" id="sender-name" class="form-input" placeholder="例如：王小明" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-email" class="form-label">電子信箱 (Email)</label>
+              <input type="email" id="sender-email" class="form-input" placeholder="example@mail.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message" class="form-label">留給佳珍的訊息 (Message)</label>
+              <textarea id="sender-message" class="form-textarea" placeholder="想對我說的話、創作回饋或合作想法..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+              <span>送出示範訊息</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ====================================================================
+       頁尾 (Site Footer)
+       ==================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        © 2026 XIE-JIA-ZHEN (謝佳珍) · Creative Archive. All Rights Reserved.
+      </div>
+      <div>
+        多媒體動畫科系 網頁設計期中作業
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ====================================================================
+       作品詳細資訊視窗 (Interactive Modal Dialog)
+       ==================================================================== -->
+  <div class="modal-backdrop" id="work-modal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="關閉視窗">&times;</button>
+      <div class="modal-content" id="modal-dynamic-body">
+        <!-- 由 JavaScript 動態注入該作品的中文名、英文名、圖片、介紹、目的與心得 -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ====================================================================
+       浮動返回頂端按鈕 (Back to Top)
+       ==================================================================== -->
+  <button class="back-to-top" id="back-to-top" aria-label="返回頁面頂端" title="返回頂端">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+
+  <!-- 外部 JavaScript 腳本 (相對路徑) -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
